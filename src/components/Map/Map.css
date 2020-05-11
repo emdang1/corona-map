@@ -1,0 +1,16 @@
+.point {
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.map {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.map span {
+  font-weight: bold;
+}

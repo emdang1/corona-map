@@ -1,0 +1,23 @@
+.card {
+  width: 100%;
+  height: 100px;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 5px 8px #888888;
+  text-align: center;
+}
+
+.confirmed {
+  border-top: solid 5px #97cfed;
+}
+
+.deaths {
+  border-top: solid 5px #ee9888;
+}
+
+.recovered {
+  border-top: solid 5px #9aee9a;
+}
