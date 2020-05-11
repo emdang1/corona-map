@@ -50,7 +50,7 @@ const Map = () => {
     <>
       <h1 style={{ textAlign: 'center' }}>Overview map</h1>
       <h5 style={{ textAlign: 'center' }}>
-        (data may vary - different sources)
+        (data may vary due different sources)
       </h5>
       <div className='map'>
         <ReactMapGL
