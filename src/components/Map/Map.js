@@ -55,11 +55,11 @@ const Map = () => {
       <div className='map'>
         <ReactMapGL
           {...viewport}
-          mapboxApiAccessToken={process.env.development.REACT_APP_MAP_API_KEY}
+          mapboxApiAccessToken={process.env.REACT_APP_MAP_API_KEY}
           onViewportChange={(viewport) => {
             setViewPort(viewport);
           }}
-          mapStyle={process.env.development.REACT_APP_MAPBOX_STYLE}
+          mapStyle={process.env.REACT_APP_MAPBOX_STYLE}
         >
           {mapCountries &&
             mapCountries.map((country, i) => (
